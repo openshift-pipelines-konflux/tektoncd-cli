@@ -15,7 +15,6 @@ metadata:
       ("upstream/***".pathChanged() || ".konflux/patches/***".pathChanged() || ".konflux/rpms/***".pathChanged() ||
       ".konflux/dockerfiles/tkn.Dockerfile".pathChanged() ||
       ".tekton/tektoncd-cli-main-tkn-pull-request.yaml".pathChanged())
-  creationTimestamp: null
   labels:
     appstudio.openshift.io/application: openshift-pipelines-cli-main
     appstudio.openshift.io/component: tektoncd-cli-main-tkn
